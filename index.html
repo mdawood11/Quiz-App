@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WebApi Quiz</title>
+
+ <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+
+  <body>
+  
+
+    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="container">
+      <div id="begin-quiz" class="start">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          This Quiz is for fundamentals that stores high scores SO THAT they can gauge their progress compared to their peers. Click the button to start. "Start"
+        </p>
+        <button id="start-q">Begin Quiz</button>
+      </div>
+      
+      <div id="questions" class="hide">
+        <h2 id="titleQuestions"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="finish" class="hide">
+        <h2>Done!</h2>
+        <p>Your final score is <span id="score-final"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+
+      <div id="feedback" class="feedback hide"></div>
+    </div>
+
+ <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+    
+  </body>
+</html>
