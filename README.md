@@ -2,7 +2,8 @@
 
 ## Web APIs Challenge.
 
- https://mdawood11.github.io/quiz.js-app/
+https://mdawood11.github.io/Quiz-App/
+
 
 ## This quiz sould have the following criteria.
 
