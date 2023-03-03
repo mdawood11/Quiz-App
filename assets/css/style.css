@@ -1,115 +1,110 @@
 body {
-
-  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
   font-size: 120%;
   font-family: Arial;
   margin: 0;
+}
 
-  }
+a {
+  font-size: 1.5rem;
+  margin-left: 30px;
+  padding-top: 20px;
+}
 
-  a{
-    font-size: 1.5rem;
-    margin-left: 30px;
-    padding-top: 20px;
+button {
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  background-color: #38593f;
+  display: inline-block;
+  font-size: 100%;
+  margin: 5px;
+  padding: 6px 10px;
+  transition: all 0.5s;
+}
 
-  }
-   
-  button {
-    cursor: pointer;
-    color: white;
-    border-radius: 10px;
-    border: 4px double #cccccc;
-    background-color: #38593f;
-    display: inline-block;
-    font-size: 100%;
-    margin: 5px;
-    padding: 6px 10px; 
-    transition: all 0.5s;
-  }
-  
-  button:hover {
-    background-color: #5c0e0e;
-   
-  }
+button:hover {
+  background-color: #5c0e0e;
+}
 
-  p{
-    
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
-  h1{
-    background-color: #38593f;
-    font-size: 1.8rem;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  .choices button {
-    display: block;
-  }
-  
-  input[type="text"] {
-    font-size: 100%;
-  }
-  
-  ol {
-    max-height: 400px;
-    overflow: auto;
-    padding-left: 0px;
-  }
-  
-  li {
-    list-style: decimal inside none;
-    padding: 6px;
-  }
-  
-  li:nth-child(odd) {
-    background-color: rgb(63, 127, 99);
-  }
-  
-  .container {
-    margin: 100px auto 0 auto;
-    max-width: 600px;
-  }
-  
-  .hide {
-    display: none;
-  }
-  
-  .start {
-    text-align: center;
-  }
-  
-  .scores {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
-  
-  .feedback {
-    font-style: italic;
-    font-size: 120%;
-    margin-top: 20px;
-    padding-top: 10px;
-    color: rgb(211, 11, 11);
-    border-top: 2px solid #ccc;
-  }
-  
-  .timer {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    border-style: inset;
-    font-size: 1.8rem;
-    padding: 10px;
-    color: #38593f;
-  }
+h1 {
+  background-color: #38593f;
+  font-size: 1.8rem;
+  color: white;
+  padding: 10px;
+  border-radius: 11px;
+}
 
-  .container{
-    border: black solid 10px;
-    padding: 20px;
-    box-shadow: 12px 12px 12px 12px rgb(35, 15, 15);
-    border-radius: 15px;
-  }
+.choices button {
+  display: block;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+ol {
+  max-height: 400px;
+  overflow: auto;
+  padding-left: 0px;
+}
+
+li {
+  list-style: decimal inside none;
+  padding: 6px;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(63, 127, 99);
+}
+
+.container {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: rgb(211, 11, 11);
+  border-top: 2px solid #ccc;
+}
+
+.timer {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  border-style: inset;
+  font-size: 1.8rem;
+  padding: 10px;
+  color: #38593f;
+}
+
+.container {
+  border: black solid 10px;
+  padding: 20px;
+  box-shadow: 12px 12px 12px 12px rgb(35, 15, 15);
+  border-radius: 15px;
+}
